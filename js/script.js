@@ -2,22 +2,6 @@ $(window).on("load", function() {
     "use strict";
 
 
-
-    //  ================= Responsive Mobile Menu ================ 
-
-    $(".mobile-menu-btn").on("click", function(){
-      $(".responsive-mobile-menu").addClass("active");
-      return false;
-    });
-    $(".close-menu").on("click", function(){
-      $(".responsive-mobile-menu").removeClass("active");
-    });
-
-
-    $('.spinner, .overlay').fadeOut();
-
-     
-
       // ============ Sticky header Function ==========
 
       if ($(window).width() > 991) {
@@ -68,45 +52,6 @@ $(window).on("load", function() {
 
     jQuery('nav ul li, .mobile-menu ul li').removeClass('active').find('a[href*="#' + currentSection + '"]').parent().addClass('active');
 });
-
-
-
-    $('.testimonial-slider').slick({
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  arrows: false,
-	  fade: true,
-    dots:false,
-	  asNavFor: '.testimonial-nav'
-	});
-	$('.testimonial-nav').slick({
-	  slidesToShow: 5,
-	  slidesToScroll: 1,
-	  asNavFor: '.testimonial-slider',
-	  dots: false,
-    arrows:false,
-	  centerMode: true,
-	  focusOnSelect: true,
-	  responsive: [
-	  {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-       
-      ]
-	});
 
 
 });

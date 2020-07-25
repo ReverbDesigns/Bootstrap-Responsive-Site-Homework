@@ -10,6 +10,8 @@
 	.service-main-info h3 {font-size: 52px;line-height: 52px;}
 	.testimonial {margin-top: -390px;}
 	.banner-text {padding-top: 150px;}
+	button.btn-sbmt {margin-bottom: 3rem;}
+	.widget-title {padding-top: 3rem;}
 }
 
 @media (max-width: 1200px) {
@@ -32,6 +34,8 @@
 	.banner-text {padding-top: 85px;}
 	.get-started {padding-bottom: 100px;}
 	.banner-text p br {display: none;}
+	button.btn-sbmt {margin-bottom: 3rem;}
+	.widget-title {padding-top: 3rem;}
 }
 
 @media (max-width: 991px) {
@@ -72,6 +76,8 @@
 	.services {margin-top: 0;}
 	.pricing {margin-top: 0;}
 	.banner-text p {padding: 0 100px;}
+	button.btn-sbmt {margin-bottom: 3rem;}
+	.widget-title {padding-top: 3rem;}
 }
 
 
@@ -98,14 +104,16 @@
 	.banner-text {padding-top: 0;}
 	.banner-text > a {padding: 0 50px;height: 60px;line-height: 60px;}
 	.banner-text p {margin-bottom: 40px;}
+	button.btn-sbmt {margin-bottom: 3rem;}
+	.widget-title {padding-top: 2rem;}
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 506px) {
 	header {padding: 25px 0;}
 	.up-social-links {display: none;}
 	.abt-info {width: 100%;margin-top: 20px;}
-	.custom-container {padding: 0 15px;}
+	.custom-container {padding: 0;}
 	.about-list > a {padding: 0 25px;font-size: 18px;height: 50px;line-height: 50px;}
 	.services {padding: 30px 0;}
 	.about-info {margin-bottom: 35px;}
@@ -124,7 +132,7 @@
 	.bottom-footer-data p {width: 100%;margin-bottom: 15px;}
 	.bottom-footer-data {text-align: center;}
 	.responsive-mobile-menu {width: 100%;}
-	.social-links {width: 100%;}
+	.social-links {width: 100%;background-color: black;}
 	.ld-pages li {width: 100%;margin-bottom: 40px;}
 	.banner-text h2 {font-size: 40px;}
 	.banner-text p br {display: none;}
@@ -134,4 +142,6 @@
 	.banner-text > a {font-size: 18px;}
 	.news {padding: 60px 0;}
 	.banner-text p {padding: 0 20px;}
+	.widget-title {padding-top: 3rem;}
+	button.btn-sbmt {margin-bottom: 3rem;}
 }
