@@ -1,5 +1,22 @@
 $(window).on("load", function() {
     "use strict";
+    
+    
+
+    //  ================= Responsive Mobile Menu ================ 
+
+    $(".mobile-menu-btn").on("click", function(){
+      $(".responsive-mobile-menu").addClass("active");
+      return false;
+    });
+    $(".close-menu").on("click", function(){
+      $(".responsive-mobile-menu").removeClass("active");
+    });
+
+
+    $('.spinner, .overlay').fadeOut();
+
+     
 
 
       // ============ Sticky header Function ==========
