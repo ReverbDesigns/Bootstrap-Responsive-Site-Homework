@@ -16,14 +16,6 @@ $Fields.= "Email: ";
 $Fields .= $email;
 $Fields .= "\n";
 
-$Fields .= "Phone: ";
-$Fields .= $phone;
-$Fields .= "\n";
-
-$Fields .= "Company: ";
-$Fields .= $company;
-$Fields .= "\n";
-
 $Fields .= "Message: ";
 $Fields .= $message;
 $Fields .= "\n";
